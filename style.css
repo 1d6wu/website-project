@@ -71,6 +71,30 @@ li a:hover {
   color:#a80303;
 }
 
+
+.headerimg{
+  position: relative;
+ 
+}
+.headerimg img{
+  width: 100%;
+  /*margin: 0;
+  padding:0;*/
+  opacity: 75%;
+  
+}
+
+#headertext{
+  position: absolute;
+    top: 88%;
+    left: 80%;
+    color: #ffffff;
+    text-align:left;
+    background-color: black;
+    font-size: 2rem;
+    
+}
+
 #text{
   background-color: #a80303;
   width: 90%;
@@ -122,7 +146,7 @@ h1, .paragraphs {
   
 }
 
-img:hover{
+.gallery img:hover{
   transform: scale(1.05);
  box-shadow: 0 0 0 1.5px #a80303;
 
