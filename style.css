@@ -86,12 +86,13 @@ li a:hover {
 
 #headertext{
   position: absolute;
-    top: 88%;
-    left: 80%;
+    bottom: 0%;
+    right: 0%;
     color: #ffffff;
     text-align:left;
     background-color: black;
     font-size: 2rem;
+    max-width: 90%;
     
 }
 
