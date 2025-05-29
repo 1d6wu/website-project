@@ -18,7 +18,8 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #a80303;
+  /*background-color: #a80303;*/
+  background-color: #FF8400;
 
   display: flex;
   justify-content: center;
@@ -68,7 +69,8 @@ li a:hover {
 
 .active {
   background-color: black; 
-  color:#a80303;
+  /*color:#a80303;*/
+  color: #FF8400;
 }
 
 
@@ -97,12 +99,15 @@ li a:hover {
 }
 
 #text{
-  background-color: #a80303;
+ /* background-color: #a80303;*/
+  background-color: #FF8400;
+  
   width: 90%;
   max-width: 900px;
   border-radius: 15px;
   display: flex;
   margin: 0 auto 8% auto;
+  
  
 }
 
@@ -113,6 +118,7 @@ h1, .paragraphs {
   flex-wrap: wrap;
   font-size: 1.1rem;
   color: black;
+ 
 
 }
  .title{
@@ -186,10 +192,13 @@ footer{
 .hairTypes{
   position: relative;
   margin: 50px 150px 50px 150px;
-  color: #a80303;
+  /*color: #a80303;*/
+  color: #FF8400 ;
   
 }
-
+.hairTypes h2{
+  border-style: double; /*mess with this later*/
+}
 .hairTypes img{
   width: 101%;
 }
@@ -206,6 +215,9 @@ footer{
   margin-right: auto;
 
 
+}
+.shops h1{
+  #
 }
 .kingsBarbers{
   
