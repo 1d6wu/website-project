@@ -349,10 +349,11 @@ footer{
   gap: 50px;
   row-gap: 75px;
   max-width: 900px;
-  height: 100vh;
+  min-height: 100vh;
   margin-left: auto;
   margin-right: auto;
   margin-top: 2rem;
+  padding-bottom: 30px;
  
 }
 
@@ -426,6 +427,7 @@ footer{
   position: relative;
   width: 100%;
   height: 300px;
+  
 }
 
 
