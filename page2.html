@@ -9,31 +9,67 @@
         
         <link rel="icon" href="" type="image/png">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
-        <header>
-            
-            <nav>
-                <ul>
+        <nav>
+                    <div class="nav-top">
+                        <button id="signUp">
+                        <i class="fa fa-fw fa-user"></i>
+                        <span>Sign Up Here</span>
+                    </div>
+            <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a class="active" href="page2.html">Gallery</a></li>
-                    <li><a href="page3.html">test for now</a></li>
+                    <li><a href="page3.html">Locations</a></li>
+                    
                 </ul>
             </nav>
+        <section>
+            <div class="headerimg">
+                    <img src="media/headerimg.jpg" alt="man receiving hair cut"> 
+                    <h2 id="headertext">Hair Types<h2>
+                </div>
+        </section>
+            <div class="container">
+        <header>
+            
+            
             <h1></h1> 
         </header>
         <main>
-            
+            <div id="myModal" class="modal">
+
+  
+                    <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <form id="form">
+                        <div class="row"><label for="firstName">First Name:</label><br>
+                        <input type="text" id="firstName" name="firstName" required><br></div>
+                        <div class="row"><label for="lastName">Last Name:</label><br>
+                        <input type="text" id="lastName" name="lastName" required><br></div>
+                        <div class="row"><label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" required><br></div>
+                        
+                        <br><input type="submit" value="submit">
+                    </form>
+                </div>
+
+                </div>
+
+
+
             <section class="hairTypes">
-                <h2><u>Hair Types i need to find better image</u></h2>
-                 <img src="media/hairtypes.jpg" alt="different types of afro hair">
+                <!-- <h2><u>Hair Types</u></h2> -->
+                 <a href="https://africaimports.com/blog/african-american-hair-types-4a-4b-4c-everything-you-need-to-know/?setCurrencyId=2" target="blank"><img src="media/hairtypes.jpg" alt="different types of afro hair"></a>
             </section>
             
             
             
             <section class="gallery">
                 <div id="dreads"><a href="https://unsplash.com/photos/man-in-black-and-white-button-up-shirt-beside-woman-in-black-and-white-plaid-shirt-9OXFfh7-zWg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="blank"><img src="media/dreads.jpg" alt="2 men with dreadlocks"></a></div>
-                <div id="manhands"><a href=https://unsplash.com/photos/man-doing-hand-gesture-ZJICAkYEtBA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="blank"><img src="media/arty.jpg" alt="man with hands out"></a></div>
+                <!-- <div id="manhands"><a href=https://unsplash.com/photos/man-doing-hand-gesture-ZJICAkYEtBA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="blank"><img src="media/arty.jpg" alt="man with hands out"></a></div> -->
+                <div id="cornrows"><a href="https://unsplash.com/photos/a-woman-with-cornrows-and-a-denim-jacket-w_zA_e8TRfM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="blank"><img src="media/cornrows.jpg" alt="woman with cornrows"></a></div>
                 <div id="child"><a href="https://unsplash.com/photos/boy-in-brown-collared-top-smiling-and-surrounded-by-children-QdK6aujOLYs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="blank"><img src="media/children.jpg" alt="african children"></a></div>
                 <div id="mixed"><a href="https://unsplash.com/photos/grayscale-photography-of-topless-woman-with-necklace-lEWI9OdzIK4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="blank"><img src="media/mixed.jpg" alt="mixed race woman"></a></div>
                 <div id="kid"><a href="https://unsplash.com/photos/a-young-girl-with-an-afro-standing-in-front-of-a-building-SLRZOWbdAoc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="blank"><img src="media/kid.jpg" alt="kid with loose afro"></a></div>
@@ -43,8 +79,9 @@
         </main>
         <aside></aside>
         <footer>
-            
         </footer>
+        </div>
+        <script src="script.js"></script>
     </body>
 </html>           
             

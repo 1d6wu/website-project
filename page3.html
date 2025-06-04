@@ -9,32 +9,93 @@
         
         <link rel="icon" href="" type="image/png">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
-        <header>
-             <nav><ul>
+        <nav>
+                    <div class="nav-top">
+                        <button id="signUp">
+                        <i class="fa fa-fw fa-user"></i>
+                        <span>Sign Up Here</span>
+                    </div>
+                <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="page2.html">Gallery</a></li>
-                    <li><a class="active" href="page3.html">test for now</a></li>
-                </ul></nav>
+                    <li><a class="active" href="page3.html">Locations</a></li>
+                </ul>
+        </nav>
+        <section>
+            <div class="headerimg">
+                    <img src="media/headerimg.jpg" alt="man receiving hair cut"> 
+                    <h2 id="headertext">Barbers/Salons in Stockport<h2>
+                </div>
+        </section>
+        <div class="container">
+        <header>
+             
 
-                <!-- <div class="headerimg">
+                <!-- <div class="media/headerimg">
                     <img src="barber.jpg" alt="man receiving hair cut"> 
                     <h2 id="headertext">Afro Hair in Stockport<h2>
                 </div>  -->
         </header>
         <main>
-            <section class="shops">
-            <h1>Testtttttttt</h1>
-                <div class="kingsBarbers"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=400&amp;height=400&amp;hl=en&amp;q=56 Castle St, Edgeley, Stockport SK3 9AD&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://embed-googlemap.com">embed google map</a></div><style>.kingsBarbers{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style></div>
+        
+            <div id="myModal" class="modal">
 
-                 <div class="goldies"><div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=400&amp;height=400&amp;hl=en&amp;q=83 Princes St, Stockport SK1 1RW&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://embed-googlemap.com">embed google map</a></div><style>.goldies{position:relative;text-align:right;width:400px;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:400px;height:400px;}.gmap_iframe {width:400px!important;height:400px!important;}</style></div>
-            </section>
+  
+                    <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <form id="form">
+                        <div class="row"><label for="firstName">First Name:</label><br>
+                        <input type="text" id="firstName" name="firstName" required><br></div>
+                        <div class="row"><label for="lastName">Last Name:</label><br>
+                        <input type="text" id="lastName" name="lastName" required><br></div>
+                        <div class="row"><label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" required><br></div>
+                        
+                        <br><input type="submit" value="submit">
+                    </form>
+                </div>
+
+                </div>
+        
+            <section class="shops">
+            
+              
+            <img id="kings" src="media/kingsoutside.webp" alt="kings barber shop">
+            <div class="kingsBarbers">
+                
+                <div class="gmap_canvas"><iframe class="gmap_iframe"
+                src="https://maps.google.com/maps?width=400&amp;height=400&amp;hl=en&amp;q=56 Castle St, Edgeley, Stockport SK3 9AD&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                allowfullscreen></iframe>
+                <p class="shopName">Kings Barber</p>
+                </div>
+            </div>
+              
+            <img id="slik" src="media/slik.webp" alt="slik barber shop">
+            <div class="slik">
+              <div class="gmap_canvas"><iframe class="gmap_iframe" src="https://maps.google.com/maps?width=400&amp;height=400&amp;hl=en&amp;q=70 Cheadle Rd, Cheadle Hulme, Cheadle SK8 5DU&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"allowfullscreen></iframe>
+                <p class="shopName">SLIK. Barbers</p>
+                </div>
+            </div>
+
+            <img id="goldies" src="media/goldies.png" alt="goldies hair salon">
+            <div class="goldies">
+                <div class="gmap_canvas"><iframe class="gmap_iframe" src="https://maps.google.com/maps?width=400&amp;height=400&amp;hl=en&amp;q=83 Princes St, Stockport SK1 1RW&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" allowfullscreen></iframe>
+                    <p class="shopName">Goldies Salon</p>
+                
+                </div>
+                </div>
+
+        </section>
         </main>
         <aside></aside>
         <footer>
             <!-- Photo by <a href="https://unsplash.com/@yiquanzhang?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Yiquan Zhang</a> on <a href="https://unsplash.com/photos/a-couple-of-men-in-a-room-_uze7NLPY4M?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> -->
       
         </footer>
+        </div>
+        <script src="script.js"></script>
     </body>
 </html>

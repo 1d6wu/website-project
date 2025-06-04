@@ -9,27 +9,64 @@
         
         <link rel="icon" href="" type="image/png">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
     </head>
     <body>
-        <header>
-            
-            <nav>
-               <ul>
-                    <li><a class="active" href="index.html">Home</a></li>
+        <nav>
+                    <div class="nav-top">
+                        <button id="signUp">
+                        <i class="fa fa-fw fa-user"></i>
+                        <span>Sign Up Here</span>
+                    </div>
+            <ul>
+                    <li><a class="active" href="index.html" >Home</a></li>
                     <li><a href="page2.html">Gallery</a></li>
-                    <li><a href="page3.html">test for now</a></li>
+                    <li><a href="page3.html">Locations</a></li>
+                    
                 </ul>
-            </nav>
                 
-        </header>
+        </nav>
+        <section>
+            <div class="headerimg">
+                    <img src="media/headerimg.jpg" alt="man receiving hair cut"> 
+                    <h2 id="headertext">Afro Hair in Stockport</h2>
+                </div>
+        </section>
+
         
+        <div class="container">
+        <header></header>
         <main>
-            <div id="text">
+            
+            
+            <div id="myModal" class="modal">
+
+  
+                    <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <form id="form">
+                        <div class="row"><label for="firstName">First Name:</label><br>
+                        <input type="text" id="firstName" name="firstName" required><br></div>
+                        <div class="row"><label for="lastName">Last Name:</label><br>
+                        <input type="text" id="lastName" name="lastName" required><br></div>
+                        <div class="row"><label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" required><br></div>
+                        
+                        <br><input type="submit" value="submit">
+                    </form>
+                </div>
+
+                </div>
+            
+            
+            
+            <div id="intro">
             <section class="paragraphs">
-                <h1 class="title"><u>Afro Hair in Stockport</u></h1>
-                <p>Being a predominantly white area, it can be hard to find barbers and hairdressers in Stockport who are comfortable working with afro hair. Until 2021, it wasn't even standard practice for them to be taught how to cut and style afro hair. This meant you either had to travel further out into Manchester or take a leap of faith and pray that your new trim wasn't going to ruin your week. 
+                <!-- <h1 class="title"><u>Afro Hair in Stockport</u></h1> -->
+                <br><p>Being a predominantly white area, it can be hard to find barbers and hairdressers in Stockport who are comfortable working with afro hair. Until 2021, it wasn't even standard practice for them to be taught how to cut and style afro hair. This meant you either had to travel further out into Manchester or take a leap of faith and pray that your new trim wasn't going to ruin your week. 
                 </p>
-                <p>The aim of this website is to help people find places they can go to without that worry. On one of the next pages you'll find a list of barbers shops and salons along with their ratings and location. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+                <p>The aim of this website is to help people find places they can go to without that worry. On one of the next pages you'll find a list of barbers shops and salons alongside their locations. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
                 <br>
                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
                 </p>
@@ -39,5 +76,7 @@
         </main>
         <aside></aside>
         <footer></footer>
+        </div>
+        <script src="script.js"></script>
     </body>
 </html>
