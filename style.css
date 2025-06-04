@@ -27,7 +27,6 @@ body{
   }
 }
 
-
 /*side navbar*/
 
 nav{
@@ -83,7 +82,6 @@ li a:hover {
   
   
 }
-
 
 #signUp {
   background-color: #FF8400;
@@ -156,8 +154,6 @@ li a:hover {
     font-size: 1.2rem;
     display: block;
     width: 100%;
-    
-
   }
 
   .nav-top{
@@ -351,7 +347,7 @@ footer{
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(9, 1fr);
   gap: 50px;
-  row-gap: 100px;
+  row-gap: 75px;
   max-width: 900px;
   height: 100vh;
   margin-left: auto;
@@ -479,8 +475,6 @@ footer{
   top: 50%;
   transform: translate(-50%, -50%);
   margin-left: 125px;
- 
-   
 }
 
 
